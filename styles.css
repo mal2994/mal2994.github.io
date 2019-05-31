@@ -1,0 +1,51 @@
+a {
+  color:inherit;
+  text-decoration: underline;
+}
+body {
+  width: 600px;
+  margin: auto;
+  border: 20px solid white;
+}
+nolinkimg{
+  -webkit-filter: grayscale(100%) blur(1px);
+  filter: grayscale(100%) blur(1px);
+}
+blue {
+  color: blue;
+  font-family: courier;
+  font-size: 100%;
+}
+green {
+  color: green;
+  font-family: courier;
+  font-size: 100%;
+}
+red {
+  color: red;
+  font-family: courier;
+  font-size: 100%;
+}
+purple {
+  color: purple;
+  font-family: courier;
+  font-size: 100%;
+}
+black  {
+  color: black;
+  font-family: courier;
+  font-size: 100%;
+  font-style: italic;
+}
+footer {
+  color: black;
+  font-family: helvetica;
+  font-size: 50%;
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border: 20px solid white;
+}
