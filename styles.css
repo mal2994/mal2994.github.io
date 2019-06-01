@@ -9,7 +9,7 @@ body {
 }
 .square{
     margin:auto;
-    width: 600px;
+    width: 1000px;
     height: 100%;
     Background-color: #fff;
     border: 20px solid white;
@@ -18,42 +18,50 @@ bg  {
   background-image: url("bg1.gif");
   background-repeat: repeat;
 }
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
 nolinkimg{
   -webkit-filter: grayscale(100%) blur(1px);
   filter: grayscale(100%) blur(1px);
 }
-blue {
+blue { /* inherited fonts would be great */
   color: blue;
   font-family: courier;
-  font-size: 100%;
+  font-size: 20px;
 }
 green {
   color: green;
   font-family: courier;
-  font-size: 100%;
+  font-size: 20px;
 }
 red {
   color: red;
   font-family: courier;
-  font-size: 100%;
+  font-size: 20px;
 }
 purple {
   color: purple;
   font-family: courier;
-  font-size: 100%;
+  font-size: 20px;
 }
 black  {
   color: black;
   font-family: courier;
-  font-size: 90%;
+  font-size: 16px;
   font-style: italic;
 }
 footer {
   color: black;
   font-family: helvetica;
   font-size: 50%;
-  
-  position: fixed;
+  padding-top:200px;
+/*  position: fixed;*/
   left: 0;
   bottom: 0;
   width: 100%;
